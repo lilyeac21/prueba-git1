@@ -14,7 +14,14 @@
             <a href="@Url.Action("Alimentos", "Productos")">Alimentos</a>
         </li>
     </ul>
-	
+	 <ul class="breadcrumb">
+        <li>
+            <a href="@Url.Action("Index", "Home")">Inicio</a> <span class="divider">/</span>
+        </li>
+        <li>
+            <a href="@Url.Action("Alimentos", "Productos")">Alimentos</a>
+        </li>
+    </ul>
 	
 	  	 @foreach (var prod in productos)
      {
